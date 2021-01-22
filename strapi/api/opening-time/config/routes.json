@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opening-times",
+      "handler": "opening-time.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opening-times/count",
+      "handler": "opening-time.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opening-times/:id",
+      "handler": "opening-time.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/opening-times",
+      "handler": "opening-time.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opening-times/:id",
+      "handler": "opening-time.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opening-times/:id",
+      "handler": "opening-time.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

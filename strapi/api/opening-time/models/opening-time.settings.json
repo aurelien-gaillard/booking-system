@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opening_times",
+  "info": {
+    "name": "Opening Time",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "start_time": {
+      "type": "datetime"
+    },
+    "end_time": {
+      "type": "datetime"
+    }
+  }
+}
